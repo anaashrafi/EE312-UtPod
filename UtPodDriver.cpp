@@ -210,5 +210,5 @@ int main(int argc, char *argv[])
     // create UtPod with specific memory size
     UtPod Priebe(200);
     cout << "Initial memory in Priebe's UtPod = " << Priebe.getRemainingMemory() << " MB" << endl << endl;
-
+    cout << "Total Memory = " << Priebe.getTotalMemory() << " MB" << endl;
 }

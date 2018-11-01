@@ -198,5 +198,4 @@ UtPod::~UtPod()
 {
     clearMemory();
 
-    cout << "Deconstructor works!" << endl;
 }
